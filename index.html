@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Pro</title>
+    <meta name="description" content="Achieve your fitness goals with expert trainers, modern facilities, and a supportive community at Fitness Pro.">
+    <meta name="keywords" content="fitness, gym, personal training, group classes, health, wellness, trainers">
+    <meta name="author" content="Fitness Pro">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Fitness Pro - Achieve Your Fitness Goals">
+    <meta property="og:description" content="Transform your body and mind with expert coaching, modern facilities, and a supportive community.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517960413843-0aee8e2d471c?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost/fitness-website/index.html">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fitness Pro - Achieve Your Fitness Goals">
+    <meta name="twitter:description" content="Transform your body and mind with expert coaching, modern facilities, and a supportive community.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1517960413843-0aee8e2d471c?auto=format&fit=crop&w=1200&q=80">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo"><span class="logo-icon">🏋️‍♂️</span> Fitness Pro</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Unleash Your Potential</h1>
+                <p>Transform your body and mind with expert coaching, modern facilities, and a supportive community.</p>
+                <a href="#contact" class="btn btn-cta">Join Now</a>
+                <a href="#contact" class="btn btn-cta" style="margin-left: 16px;">Book a Free Trial</a>
+            </div>
+        </section>
+
+        <section id="gallery-preview" class="gallery-preview" aria-labelledby="gallery-heading">
+            <h2 id="gallery-heading">Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=400" alt="Fitness Gallery 1" loading="lazy" class="gallery-thumb" style="background:#222;">
+                <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=400" alt="Fitness Gallery 2" loading="lazy" class="gallery-thumb" style="background:#222;">
+                <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&w=400" alt="Fitness Gallery 3" loading="lazy" class="gallery-thumb" style="background:#222;">
+                <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&w=400" alt="Fitness Gallery 4" loading="lazy" class="gallery-thumb" style="background:#222;">
+            </div>
+            <div style="text-align:center; margin-top: 24px;">
+                <a href="gallery.html" class="btn btn-cta">View Full Gallery</a>
+            </div>
+        </section>
+
+        <section id="pricing-preview" class="pricing-preview" aria-labelledby="pricing-heading">
+            <h2 id="pricing-heading">Membership Plans</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/mo</span></div>
+                    <ul>
+                        <li>✔️ Gym Access</li>
+                        <li>✔️ 2 Group Classes/week</li>
+                        <li>✔️ Locker Room</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-cta">Choose Basic</a>
+                </div>
+                <div class="pricing-card popular">
+                    <h3>Pro</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul>
+                        <li>✔️ All Basic Features</li>
+                        <li>✔️ Unlimited Classes</li>
+                        <li>✔️ 1 Personal Training/month</li>
+                        <li>✔️ Nutrition Plan</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-cta">Choose Pro</a>
+                    <div class="badge">Most Popular</div>
+                </div>
+                <div class="pricing-card">
+                    <h3>Elite</h3>
+                    <div class="price">$79<span>/mo</span></div>
+                    <ul>
+                        <li>✔️ All Pro Features</li>
+                        <li>✔️ Unlimited Personal Training</li>
+                        <li>✔️ Priority Booking</li>
+                        <li>✔️ Premium Support</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-cta">Choose Elite</a>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top: 24px;">
+                <a href="pricing.html" class="btn btn-cta">See All Plans</a>
+            </div>
+        </section>
+
+        <section id="latest-articles" class="latest-articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Latest Articles</h2>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=400&q=80" alt="Strength Training Tips" loading="lazy">
+                    <div class="article-info">
+                        <h3>Strength Training Tips for Beginners</h3>
+                        <p>Discover the fundamentals of strength training and how to get started safely and effectively.</p>
+                        <a href="blog.html#strength-training" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=400&q=80" alt="HIIT Workouts" loading="lazy">
+                    <div class="article-info">
+                        <h3>HIIT Workouts: Burn More in Less Time</h3>
+                        <p>Learn why High-Intensity Interval Training is so effective and how to add it to your routine.</p>
+                        <a href="blog.html#hiit" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=400&q=80" alt="Nutrition for Fitness" loading="lazy">
+                    <div class="article-info">
+                        <h3>Nutrition for Fitness Success</h3>
+                        <p>Explore the basics of fueling your body for workouts, recovery, and long-term health.</p>
+                        <a href="blog.html#nutrition" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+            <div style="text-align:center; margin-top: 24px;">
+                <a href="blog.html" class="btn btn-cta">View All Articles</a>
+            </div>
+        </section>
+
+        <section id="testimonials-preview" class="testimonials-preview" aria-labelledby="testimonials-preview-heading">
+            <h2 id="testimonials-preview-heading">What Our Members Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide">
+                    <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=80" alt="Testimonial 1" class="testimonial-img" loading="lazy" style="background:#222;">
+                    <blockquote>“Fitness Pro helped me lose 20kg and feel confident again. The trainers are amazing!”</blockquote>
+                    <span>- Sarah, Member</span>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="https://images.pexels.com/photos/2261482/pexels-photo-2261482.jpeg?auto=compress&w=80" alt="Testimonial 2" class="testimonial-img" loading="lazy" style="background:#222;">
+                    <blockquote>“The group classes are so much fun and motivating. I love the community here!”</blockquote>
+                    <span>- Mike, Member</span>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="https://images.pexels.com/photos/2780768/pexels-photo-2780768.jpeg?auto=compress&w=80" alt="Testimonial 3" class="testimonial-img" loading="lazy" style="background:#222;">
+                    <blockquote>“Best gym in town! Modern equipment, great staff, and real results.”</blockquote>
+                    <span>- Priya, Member</span>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top: 24px;">
+                <a href="testimonials.html" class="btn btn-cta">Read More Stories</a>
+            </div>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Us</h2>
+            <p>At Fitness Pro, we empower you to reach your full potential with personalized programs, expert trainers, and a vibrant community. Our mission is to make fitness accessible, enjoyable, and sustainable for everyone.</p>
+            <div class="about-content">
+                <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=600" alt="Our modern gym facility with trainers and members" loading="lazy" style="background:#222;">
+                <ul class="about-list">
+                    <li>✔️ State-of-the-art equipment and clean facilities</li>
+                    <li>✔️ Certified, passionate trainers</li>
+                    <li>✔️ Supportive, inclusive environment</li>
+                    <li>✔️ Nutrition and wellness guidance</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="services" class="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item" aria-label="Personal Training">
+                    <h3>Personal Training</h3>
+                    <p>One-on-one coaching tailored to your goals, fitness level, and schedule. Get expert guidance and motivation every step of the way.</p>
+                </div>
+                <div class="service-item" aria-label="Nutrition Coaching">
+                    <h3>Nutrition Coaching</h3>
+                    <p>Personalized nutrition plans and ongoing support to help you fuel your body for optimal performance and health.</p>
+                </div>
+                <div class="service-item" aria-label="Group Classes">
+                    <h3>Group Classes</h3>
+                    <p>Fun, energetic group workouts for all levels. From HIIT to yoga, find your favorite way to move and connect with others.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
+            <h2 id="testimonials-heading">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item" aria-label="Testimonial from Jane Doe">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=200&q=80" alt="Client Jane Doe smiling after a workout" class="testimonial-img" loading="lazy">
+                    <p>"Fitness Pro changed my life! The trainers are so supportive and the community is amazing."</p>
+                    <span>- Jane Doe</span>
+                </div>
+                <div class="testimonial-item" aria-label="Testimonial from John Smith">
+                    <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=200&q=80" alt="Client John Smith looking fit and happy" class="testimonial-img" loading="lazy">
+                    <p>"The results speak for themselves. I feel stronger, healthier, and more confident than ever!"</p>
+                    <span>- John Smith</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-choose-us" aria-labelledby="why-heading">
+            <h2 id="why-heading">Why Choose Us?</h2>
+            <div class="why-grid">
+                <div class="why-item"><span class="why-icon">💪</span><h3>Expert Trainers</h3><p>Certified, passionate professionals dedicated to your success.</p></div>
+                <div class="why-item"><span class="why-icon">🏋️‍♂️</span><h3>Modern Equipment</h3><p>State-of-the-art machines and clean, safe facilities.</p></div>
+                <div class="why-item"><span class="why-icon">🤝</span><h3>Supportive Community</h3><p>Friendly, inclusive environment for all fitness levels.</p></div>
+                <div class="why-item"><span class="why-icon">🥗</span><h3>Nutrition Guidance</h3><p>Personalized plans to fuel your transformation.</p></div>
+            </div>
+        </section>
+        <section id="featured-in" class="featured-in" aria-labelledby="featured-heading">
+            <h2 id="featured-heading">Featured In</h2>
+            <div class="featured-logos">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Men%27s_Health_logo.svg" alt="Men's Health" loading="lazy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Women%27s_Health_logo.svg" alt="Women's Health" loading="lazy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Shape_magazine_logo.svg" alt="Shape Magazine" loading="lazy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Under_armour_logo.svg" alt="Under Armour" loading="lazy">
+            </div>
+        </section>
+        <section id="faq" class="faq" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item"><h3>Do I need experience to join?</h3><p>No! We welcome all levels, from beginners to advanced athletes.</p></div>
+                <div class="faq-item"><h3>Can I try a class before joining?</h3><p>Yes, book a free trial class using the button above or in the footer.</p></div>
+                <div class="faq-item"><h3>What are your opening hours?</h3><p>We’re open 6am–10pm, 7 days a week.</p></div>
+                <div class="faq-item"><h3>Do you offer nutrition coaching?</h3><p>Absolutely! Our certified coaches will help you with personalized plans.</p></div>
+            </div>
+        </section>
+        <section id="newsletter" class="newsletter" aria-labelledby="newsletter-heading">
+            <h2 id="newsletter-heading">Stay in the Loop</h2>
+            <form class="newsletter-form" aria-label="Newsletter signup">
+                <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+                <button type="submit" class="btn btn-cta">Subscribe</button>
+            </form>
+        </section>
+
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>Ready to start your fitness journey? Get in touch or visit us!</p>
+            <form aria-label="Contact form">
+                <input type="text" placeholder="Your Name" aria-label="Your Name">
+                <input type="email" placeholder="Your Email" aria-label="Your Email">
+                <textarea placeholder="Your Message" aria-label="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="map-container">
+                    <iframe title="Fitness Pro Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363153169!3d-37.8162797797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1611816611234!5m2!1sen!2sus" width="100%" height="220" style="border:0; border-radius:10px; margin-top:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-facebook" /></svg></a>
+                    <a href="#" aria-label="Instagram" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-instagram" /></svg></a>
+                    <a href="#" aria-label="Twitter" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-twitter" /></svg></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><span class="logo-icon">🏋️‍♂️</span> Fitness Pro</div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-facebook" /></svg></a>
+                <a href="#" aria-label="Instagram" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-instagram" /></svg></a>
+                <a href="#" aria-label="Twitter" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-twitter" /></svg></a>
+                <a href="#contact" class="btn btn-cta" style="margin-left: 16px;">Book a Free Trial</a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Fitness Pro. All rights reserved.</p>
+        <svg style="display:none;">
+            <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></symbol>
+            <symbol id="icon-instagram" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.242 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.242 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.242-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608C4.515 2.497 5.783 2.225 7.15 2.163 8.416 2.105 8.796 2.094 12 2.094m0-2.163C8.741 0 8.332.012 7.052.07 5.771.128 4.635.4 3.678 1.357 2.721 2.314 2.449 3.45 2.391 4.731 2.333 6.011 2.321 6.42 2.321 12c0 5.58.012 5.989.07 7.269.058 1.281.33 2.417 1.287 3.374.957.957 2.093 1.229 3.374 1.287 1.28.058 1.689.07 7.269.07s5.989-.012 7.269-.07c1.281-.058 2.417-.33 3.374-1.287.957-.957 1.229-2.093 1.287-3.374.058-1.28.07-1.689.07-7.269s-.012-5.989-.07-7.269c-.058-1.281-.33-2.417-1.287-3.374C21.417.4 20.281.128 19 .07 17.72.012 17.311 0 12 0zm0 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162A3.999 3.999 0 1 1 12 8a3.999 3.999 0 0 1 0 7.999zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></symbol>
+            <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.38 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.247a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.057 0 14.009-7.496 14.009-13.986 0-.213-.005-.425-.014-.636A9.936 9.936 0 0 0 24 4.557z"/></symbol>
+        </svg>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to Top">↑</a>
+    <script src="js/script.js"></script>
+</body>
+</html>

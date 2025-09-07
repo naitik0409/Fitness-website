@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainers - Fitness Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo">Fitness Pro</div>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="trainers" class="trainers" aria-labelledby="trainers-heading">
+            <h2 id="trainers-heading">Meet Our Trainers</h2>
+            <p>Our certified trainers are here to guide you on your fitness journey. Learn more about their expertise and connect with them!</p>
+            <div class="trainer-grid">
+                <div class="trainer-item" aria-label="Trainer Jane Doe">
+                    <img src="https://images.pexels.com/photos/1139191/pexels-photo-1139191.jpeg?auto=compress&w=400" alt="Trainer Jane Doe" class="trainer-img" loading="lazy" style="background:#222;">
+                    <div class="trainer-info">
+                        <h3>Jane Doe</h3>
+                        <p class="trainer-specialty">Strength Training</p>
+                        <p>Jane is a highly experienced strength and conditioning coach. <span class="trainer-cert">Certified PT, NSCA</span></p>
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Jane's Instagram" class="social-icon"><svg width="22" height="22" fill="currentColor"><use href="#icon-instagram" /></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-item" aria-label="Trainer John Smith">
+                    <img src="https://images.pexels.com/photos/2261482/pexels-photo-2261482.jpeg?auto=compress&w=400" alt="Trainer John Smith" class="trainer-img" loading="lazy" style="background:#222;">
+                    <div class="trainer-info">
+                        <h3>John Smith</h3>
+                        <p class="trainer-specialty">Cardio & Endurance</p>
+                        <p>John specializes in HIIT and circuit training. <span class="trainer-cert">Certified PT, ACE</span></p>
+                        <div class="trainer-social">
+                            <a href="#" aria-label="John's Twitter" class="social-icon"><svg width="22" height="22" fill="currentColor"><use href="#icon-twitter" /></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-item" aria-label="Trainer Emily White">
+                    <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=400" alt="Trainer Emily White" class="trainer-img" loading="lazy" style="background:#222;">
+                    <div class="trainer-info">
+                        <h3>Emily White</h3>
+                        <p class="trainer-specialty">Yoga & Flexibility</p>
+                        <p>Emily is a certified yoga instructor. <span class="trainer-cert">RYT 500</span></p>
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Emily's Facebook" class="social-icon"><svg width="22" height="22" fill="currentColor"><use href="#icon-facebook" /></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-item" aria-label="Trainer David Green">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=400" alt="Trainer David Green" class="trainer-img" loading="lazy" style="background:#222;">
+                    <div class="trainer-info">
+                        <h3>David Green</h3>
+                        <p class="trainer-specialty">Functional Training</p>
+                        <p>David focuses on practical strength and mobility. <span class="trainer-cert">Certified PT, NASM</span></p>
+                        <div class="trainer-social">
+                            <a href="#" aria-label="David's Instagram" class="social-icon"><svg width="22" height="22" fill="currentColor"><use href="#icon-instagram" /></svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-item" aria-label="Trainer Sarah Connor">
+                    <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&w=400" alt="Trainer Sarah Connor" class="trainer-img" loading="lazy" style="background:#222;">
+                    <div class="trainer-info">
+                        <h3>Sarah Connor</h3>
+                        <p class="trainer-specialty">Nutrition & Weight Management</p>
+                        <p>Sarah is a registered dietitian and personal trainer. <span class="trainer-cert">RD, CPT</span></p>
+                        <div class="trainer-social">
+                            <a href="#" aria-label="Sarah's Facebook" class="social-icon"><svg width="22" height="22" fill="currentColor"><use href="#icon-facebook" /></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="newsletter" class="newsletter" aria-labelledby="newsletter-heading">
+            <h2 id="newsletter-heading">Stay in the Loop</h2>
+            <form class="newsletter-form" aria-label="Newsletter signup">
+                <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+                <button type="submit" class="btn btn-cta">Subscribe</button>
+            </form>
+        </section>
+        <section id="faq" class="faq" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item"><h3>Do I need experience to join?</h3><p>No! We welcome all levels, from beginners to advanced athletes.</p></div>
+                <div class="faq-item"><h3>Can I try a class before joining?</h3><p>Yes, book a free trial class using the button below.</p></div>
+                <div class="faq-item"><h3>What are your opening hours?</h3><p>We’re open 6am–10pm, 7 days a week.</p></div>
+                <div class="faq-item"><h3>Do you offer nutrition coaching?</h3><p>Absolutely! Our certified coaches will help you with personalized plans.</p></div>
+            </div>
+        </section>
+        <div style="text-align:center; margin: 40px 0 0 0;">
+            <a href="#contact" class="btn btn-cta">Book a Free Trial</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fitness Pro. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

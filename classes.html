@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes - Fitness Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo">Fitness Pro</div>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="classes" class="classes" aria-labelledby="classes-heading">
+            <h2 id="classes-heading">Our Classes</h2>
+            <p>Explore our diverse range of classes, designed for all fitness levels and goals. Each class is led by certified trainers in a motivating environment.</p>
+            <div class="class-grid">
+                <div class="class-item" aria-label="Yoga Class">
+                    <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&w=600" alt="Yoga class in session" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Yoga <span class="class-level beginner">Beginner</span></h3>
+                        <p>Improve flexibility, strength, and mental well-being. Suitable for all levels, from beginners to advanced practitioners.</p>
+                        <div class="class-icons">🧘‍♂️ 🌱</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="Zumba Class">
+                    <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=600" alt="Zumba dance class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Zumba <span class="class-level all">All Levels</span></h3>
+                        <p>Dance your way to fitness with energetic music and fun choreography. A high-energy workout that feels like a party!</p>
+                        <div class="class-icons">💃 🎶</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="Spin Class">
+                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=600" alt="Spin cycling class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Spin <span class="class-level intermediate">Intermediate</span></h3>
+                        <p>High-intensity cycling workouts to boost your cardiovascular health and burn calories. Ride to the rhythm and push your limits.</p>
+                        <div class="class-icons">🚴‍♀️ 🔥</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="Weightlifting Class">
+                    <img src="https://images.pexels.com/photos/2261482/pexels-photo-2261482.jpeg?auto=compress&w=600" alt="Weightlifting class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Weightlifting <span class="class-level advanced">Advanced</span></h3>
+                        <p>Build strength and muscle with guided weightlifting techniques. Personalized coaching for safe and effective results.</p>
+                        <div class="class-icons">🏋️‍♂️ 💪</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="HIIT Class">
+                    <img src="https://images.pexels.com/photos/2780768/pexels-photo-2780768.jpeg?auto=compress&w=600" alt="HIIT class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>HIIT <span class="class-level all">All Levels</span></h3>
+                        <p>High-Intensity Interval Training for maximum calorie burn and improved cardiovascular fitness in a short amount of time. Push your limits!</p>
+                        <div class="class-icons">⏱️ 🏃‍♂️</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="Pilates Class">
+                    <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&w=600" alt="Pilates class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Pilates <span class="class-level beginner">Beginner</span></h3>
+                        <p>Focus on core strength, flexibility, and body awareness. Pilates helps improve posture, balance, and overall body control.</p>
+                        <div class="class-icons">🤸‍♀️ 🌸</div>
+                    </div>
+                </div>
+                <div class="class-item" aria-label="Boxing Class">
+                    <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&w=600" alt="Boxing class" class="class-img" loading="lazy" style="background:#222;">
+                    <div class="class-info">
+                        <h3>Boxing <span class="class-level intermediate">Intermediate</span></h3>
+                        <p>A high-energy workout that combines boxing techniques with cardio and strength training. Release stress and get fit!</p>
+                        <div class="class-icons">🥊 🏃‍♀️</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#classes" class="back-to-top" aria-label="Back to Top">↑</a>
+        <section id="newsletter" class="newsletter" aria-labelledby="newsletter-heading">
+            <h2 id="newsletter-heading">Stay in the Loop</h2>
+            <form class="newsletter-form" aria-label="Newsletter signup">
+                <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+                <button type="submit" class="btn btn-cta">Subscribe</button>
+            </form>
+        </section>
+        <section id="faq" class="faq" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item"><h3>Do I need experience to join?</h3><p>No! We welcome all levels, from beginners to advanced athletes.</p></div>
+                <div class="faq-item"><h3>Can I try a class before joining?</h3><p>Yes, book a free trial class using the button below.</p></div>
+                <div class="faq-item"><h3>What are your opening hours?</h3><p>We’re open 6am–10pm, 7 days a week.</p></div>
+                <div class="faq-item"><h3>Do you offer nutrition coaching?</h3><p>Absolutely! Our certified coaches will help you with personalized plans.</p></div>
+            </div>
+        </section>
+        <div style="text-align:center; margin: 40px 0 0 0;">
+            <a href="#contact" class="btn btn-cta">Book a Free Trial</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fitness Pro. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

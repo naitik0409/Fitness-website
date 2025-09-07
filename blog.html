@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Fitness Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo"><span class="logo-icon">🏋️‍♂️</span> Fitness Pro</div>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="blog-hero">
+            <h1>Fitness Pro Blog</h1>
+            <p>Tips, guides, and inspiration for your fitness journey.</p>
+        </section>
+        <section class="blog-articles" aria-labelledby="blog-articles-heading">
+            <h2 id="blog-articles-heading">All Articles</h2>
+            <div class="articles-grid">
+                <article class="article-card" id="strength-training">
+                    <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2d471c?auto=format&fit=crop&w=600&q=80" alt="Strength Training Tips" loading="lazy">
+                    <div class="article-info">
+                        <h3>Strength Training Tips for Beginners</h3>
+                        <p>Discover the fundamentals of strength training and how to get started safely and effectively.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card" id="hiit">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="HIIT Workouts" loading="lazy">
+                    <div class="article-info">
+                        <h3>HIIT Workouts: Burn More in Less Time</h3>
+                        <p>Learn why High-Intensity Interval Training is so effective and how to add it to your routine.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card" id="nutrition">
+                    <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80" alt="Nutrition for Fitness" loading="lazy">
+                    <div class="article-info">
+                        <h3>Nutrition for Fitness Success</h3>
+                        <p>Explore the basics of fueling your body for workouts, recovery, and long-term health.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80" alt="Group Classes" loading="lazy">
+                    <div class="article-info">
+                        <h3>Group Classes: Motivation & Community</h3>
+                        <p>Find out how group classes can boost your motivation and help you reach your goals faster.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="article-card">
+                    <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=600&q=80" alt="Yoga for Mind & Body" loading="lazy">
+                    <div class="article-info">
+                        <h3>Yoga for Mind & Body</h3>
+                        <p>Discover the benefits of yoga for flexibility, stress relief, and overall well-being.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <a href="#blog-articles-heading" class="back-to-top" aria-label="Back to Top">↑</a>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><span class="logo-icon">🏋️‍♂️</span> Fitness Pro</div>
+            <ul class="footer-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-facebook" /></svg></a>
+                <a href="#" aria-label="Instagram" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-instagram" /></svg></a>
+                <a href="#" aria-label="Twitter" class="social-icon"><svg width="24" height="24" fill="currentColor"><use href="#icon-twitter" /></svg></a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Fitness Pro. All rights reserved.</p>
+        <svg style="display:none;">
+            <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></symbol>
+            <symbol id="icon-instagram" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.242 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.242 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.242-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608C4.515 2.497 5.783 2.225 7.15 2.163 8.416 2.105 8.796 2.094 12 2.094m0-2.163C8.741 0 8.332.012 7.052.07 5.771.128 4.635.4 3.678 1.357 2.721 2.314 2.449 3.45 2.391 4.731 2.333 6.011 2.321 6.42 2.321 12c0 5.58.012 5.989.07 7.269.058 1.281.33 2.417 1.287 3.374.957.957 2.093 1.229 3.374 1.287 1.28.058 1.689.07 7.269.07s5.989-.012 7.269-.07c1.281-.058 2.417-.33 3.374-1.287.957-.957 1.229-2.093 1.287-3.374.058-1.28.07-1.689.07-7.269s-.012-5.989-.07-7.269c-.058-1.281-.33-2.417-1.287-3.374C21.417.4 20.281.128 19 .07 17.72.012 17.311 0 12 0zm0 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162A3.999 3.999 0 1 1 12 8a3.999 3.999 0 0 1 0 7.999zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></symbol>
+            <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.38 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.247a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.057 0 14.009-7.496 14.009-13.986 0-.213-.005-.425-.014-.636A9.936 9.936 0 0 0 24 4.557z"/></symbol>
+        </svg>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
